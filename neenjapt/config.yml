@@ -1,0 +1,59 @@
+## This file is a template remove the .template to use the file
+
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  movies:
+    metadata_path:
+      - file: config/collections/movies/studio-saga.yml
+#      - file: config/collections/movies/people.yml
+  tv-shows:
+    metadata_path:
+      - file: config/metadata/tv-shows/Money Heist.yml
+      - file: config/collections/tv-shows/genres.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_missing: true
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  verify_ssl: true
+  playlist_sync_to_users: all
+  custom_repo:
+webhooks:                                       # Can be individually specified per library as well
+  error:
+  run_start:
+  run_end:
+  changes:
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://livingroom-shield.eth0:32400/
+  token: 8rzzK6ivxv4gyXbfD1HK
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:                                           # REQUIRED for the script to run
+  apikey: 03f93e1136327767edc3a0594eb18872
+  language: en
