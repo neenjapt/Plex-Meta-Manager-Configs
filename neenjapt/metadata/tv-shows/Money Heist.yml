@@ -1,9 +1,11 @@
 metadata:
   "Money Heist":
     original_title: La Casa de Papel
+    summary: "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing."
     file_poster: config/metadata/tv-shows/Money Heist/poster.png
     seasons:
       1:
+        summary: Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.
         file_poster: config/metadata/tv-shows/Money Heist/Season01.png
         episodes:
           1:
@@ -72,6 +74,7 @@ metadata:
             summary: "The Professor meets Raquel's mother under stressful circumstances. At the Mint, the thieves offer the hostages a decision: money or freedom?"
             file_poster: config/metadata/tv-shows/Money Heist/S01E13.jpg
       2:
+        summary: As the police close in on the Professor's identity, his lack of communication with the Mint team leads to mutiny and the arrest of one of the robbers.
         file_poster: config/metadata/tv-shows/Money Heist/Season02.png
         episodes:
           1:
@@ -120,6 +123,7 @@ metadata:
             summary: As the police enter the Mint, Berlín leads the robbers in a final showdown. Will they escape with the 984 million euros -- and with their lives intact?
             file_poster: config/metadata/tv-shows/Money Heist/S02E09.jpg
       3:
+        summary: The Professor and his team reunite to free Río, this time targeting the Bank of Spain with a daring and dangerous new plan. The Resistance continues.
         file_poster: config/metadata/tv-shows/Money Heist/Season03.png
         episodes:
           1:
@@ -163,6 +167,7 @@ metadata:
             summary: Tokyo attempts to drown her sorrows. Sierra uses personal tactics to target a vulnerable Nairobi, while Suárez continues to hunt down Raquel.
             file_poster: config/metadata/tv-shows/Money Heist/S03E08.jpg
       4:
+        summary: Lives are on the line as the Professor's plan begins to unravel and the crew must fend off enemies from both inside and outside the Bank of Spain.
         file_poster: config/metadata/tv-shows/Money Heist/Season04.png
         episodes:
           1:
@@ -206,6 +211,7 @@ metadata:
             summary: The Professor, Benjamin and the others attempt to free Lisboa. Tokyo's anger threatens her faith in the plan. Sierra takes matters into her own hands.
             file_poster: config/metadata/tv-shows/Money Heist/S04E08.jpg
       5:
+        summary: "The gang has been in the Bank of Spain for more than 100 hours and the Professor is at risk. To make matters worse, a new adversary is coming: the army."
         file_poster: config/metadata/tv-shows/Money Heist/Season05.png
         episodes:
           1:
