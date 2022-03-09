@@ -57,3 +57,33 @@ plex:                                           # Can be individually specified 
 tmdb:                                           # REQUIRED for the script to run
   apikey: 03f93e1136327767edc3a0594eb18872
   language: en
+radarr:
+  url: http://bruno-ts453be.eth1:7878/
+  token: fb1d26375ec649739153b0f19681424e
+  add: true
+  add_existing: false
+  root_folder_path: /movies
+  monitor: true
+  availability: released
+  quality_profile: 1080p
+  tag: pmm
+  search: false
+  radarr_path: /movies
+  plex_path: /storage/BRUNO-TS453BE/Multimedia/movies
+sonarr:
+  url: http://bruno-ts453be.eth1:8989/
+  token: e9f4335fcbd74abaaf3f9a2c4a0375e7
+  add: true
+  add_existing: false
+  root_folder_path: /tv
+  monitor: all
+  quality_profile: HD-1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag: pmm
+  search: false
+  cutoff_search: false
+  sonarr_path: /tv
+  plex_path: /storage/BRUNO-TS453BE/Multimedia/tvshows
+  
