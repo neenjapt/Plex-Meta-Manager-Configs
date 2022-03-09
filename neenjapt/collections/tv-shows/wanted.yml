@@ -1,0 +1,20 @@
+######################################################
+#              Wanted TV-Shows Collections           #
+######################################################
+
+templates:
+  Wanted TV-Shows:
+    sync_mode: append
+    schedule: daily
+    collection_order: release
+    collection_mode: hide
+
+collections:
+  Wanted:
+    template: {name: Wanted TV-Shows}
+    imdb_list: https://www.imdb.com/list/ls081900896/
+
+  Wanted 4K:
+    template: {name: Wanted TV-Shows}
+    imdb_list: https://www.imdb.com/list/ls538619738/
+  

@@ -3,16 +3,13 @@
 libraries:                                      # Library mappings must have a colon (:) placed after them
   movies:
     metadata_path:
-      - file: config/collections/movies/studio-saga.yml
-#      - file: config/collections/movies/people.yml
+#      - file: config/collections/movies/studio-saga.yml
       - file: config/collections/movies/wanted.yml
-      - file: config/collections/movies/wanted-4k.yml
   tv-shows:
     metadata_path:
-      - file: config/metadata/tv-shows/Money Heist.yml
-      - file: config/collections/tv-shows/genres.yml
+#      - file: config/metadata/tv-shows/Money Heist.yml
+#      - file: config/collections/tv-shows/genres.yml
       - file: config/collections/tv-shows/wanted.yml
-      - file: config/collections/tv-shows/wanted-4k.yml
 settings:                                       # Can be individually specified per library as well
   cache: true
   cache_expiration: 60
