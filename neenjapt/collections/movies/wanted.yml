@@ -12,9 +12,11 @@ templates:
 collections:
   Wanted Movies:
     template: {name: Wanted Movies}
+    radarr_quality: 1080p
     imdb_list: https://www.imdb.com/list/ls081900849/
   
   Wanted Movies 4K:
     template: {name: Wanted Movies}
+    radarr_quality: 1080p+
     imdb_list: https://www.imdb.com/list/ls538619765/
   

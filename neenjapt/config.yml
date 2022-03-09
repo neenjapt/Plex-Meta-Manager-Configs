@@ -87,4 +87,3 @@ sonarr:
   cutoff_search: false
   sonarr_path: /tv
   plex_path: /storage/BRUNO-TS453BE/Multimedia/tvshows
-  

@@ -12,9 +12,11 @@ templates:
 collections:
   Wanted TV-Shows:
     template: {name: Wanted TV-Shows}
+    sonarr_quality: HD-1080p
     imdb_list: https://www.imdb.com/list/ls081900896/
 
   Wanted TV-Shows 4K:
     template: {name: Wanted TV-Shows}
+    sonarr_quality: 720p+
     imdb_list: https://www.imdb.com/list/ls538619738/
   
