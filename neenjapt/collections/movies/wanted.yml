@@ -10,11 +10,11 @@ templates:
     collection_mode: hide
 
 collections:
-  Wanted:
+  Wanted Movies:
     template: {name: Wanted Movies}
     imdb_list: https://www.imdb.com/list/ls081900849/
   
-  Wanted 4K:
+  Wanted Movies 4K:
     template: {name: Wanted Movies}
     imdb_list: https://www.imdb.com/list/ls538619765/
   
